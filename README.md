@@ -1,3 +1,5 @@
+## Copy Docker requirements
+Clone the repository on your computer
 
 ## Install nvidia-docker2 (https://github.com/NVIDIA/nvidia-docker)
   `sudo apt-get install -y nvidia-docker2`
