@@ -30,14 +30,13 @@ This Docker contains two pipelines:
 
 ## Authors
 
-If you make (good) use fo the pipeline music_v3.2, please cite:
-
-F. Galassi, S. Tarride, E. Vallée, O. Commowick, C. Barillot. Deep learning for multi-site ms lesions segmentation: two-step intensity standardization and generalized loss function. ISBI 2019 - IEEE International Symposium on Biomedical Imaging, Apr 2019, VENICE,Italy. pp.1. Francesca Galassi, Solène Tarride, Emmanuel Vallée, Olivier Commowick, Christian Barillot. Deep learning for multi-site ms lesions segmentation: two-step intensity standardization and generalized loss function. ISBI 2019 - IEEE International Symposium on Biomedical Imaging, Apr 2019, VENICE, Italy. pp.1. ⟨hal-02052250⟩
-
-
-If you make (good) use fo the pipeline music_v2, please cite:
+If you make use fo the pipeline music_v2, please cite:
 
 F. Galassi, O. Commowick, C. Barillot. Integration of Probabilistic Atlas and Graph Cuts for Automated Segmentation of Multiple Sclerosis lesions. International Society for Magnetic Resonance in Medicine (ISMRM 2018), Jun 2018, Paris, France. pp.1-6. ⟨hal-01823801⟩
+
+If you make use fo the pipeline music_v3.2, please cite:
+
+F. Galassi, S. Tarride, E. Vallée, O. Commowick, C. Barillot. Deep learning for multi-site ms lesions segmentation: two-step intensity standardization and generalized loss function. ISBI 2019 - IEEE International Symposium on Biomedical Imaging, Apr 2019, VENICE,Italy. pp.1. Francesca Galassi, Solène Tarride, Emmanuel Vallée, Olivier Commowick, Christian Barillot. Deep learning for multi-site ms lesions segmentation: two-step intensity standardization and generalized loss function. ISBI 2019 - IEEE International Symposium on Biomedical Imaging, Apr 2019, VENICE, Italy. pp.1. ⟨hal-02052250⟩
 
 
 ## License

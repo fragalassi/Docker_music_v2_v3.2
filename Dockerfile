@@ -153,8 +153,6 @@ COPY config.txt /root/.anima/
 RUN mkdir /testing
 COPY testing ./testing
 
-COPY call.sh .
-
 RUN curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py &&  python get-pip.py
 RUN pip3 install theano nibabel keras
 
