@@ -5,8 +5,8 @@ Clone the repository on your computer
   `sudo apt-get install -y nvidia-docker2`
   `sudo pkill -SIGHUP dockerd`
 
-## Copy Docker requirements
-Copy your github ssh keys (with no passphrase in a .ssh folder in the current directory
+## github ssh keys
+Copy your github ssh keys (with no passphrase in a .ssh folder in the current directory)
 
 ## Build image
   `docker build .`
