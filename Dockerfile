@@ -18,6 +18,12 @@ RUN set -ex \
      ninja-build \
      && rm -rf /var/lib/apt/lists/*
 
+# Install newer version of cmake
+RUN wget -qO - https://apt.kitware.com/keys/kitware-archive-latest.asc | apt-key add -
+RUN apt-add-repository 'deb https://apt.kitware.com/ubuntu/ xenial main'
+RUN apt-get update
+RUN set -ex && apt-get install -y --no-install-recommends --no-install-suggests cmake
+
 # Copy SSH key for git private repos
 # Need to have a private key wih no passphrase
 ADD .ssh/id_rsa /root/.ssh/id_rsa
@@ -26,7 +32,7 @@ RUN chmod 600 /root/.ssh/id_rsa*
 RUN ssh-keyscan -t rsa github.com > /root/.ssh/known_hosts
 
 ## VTK
-ENV VTK_GIT_TAG=release
+ENV VTK_GIT_TAG=v8.2.0
 
 RUN set -ex \
      && mkdir -p /src/externals && cd /src/externals \
