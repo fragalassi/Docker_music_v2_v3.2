@@ -154,6 +154,6 @@ RUN mkdir /testing
 COPY testing ./testing
 
 RUN curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py &&  python get-pip.py
-RUN pip3 install theano nibabel keras
+RUN pip3 install theano==1.0.4 nibabel==3.0.2 keras==2.2.0
 
 RUN rm -rf /root/.ssh/
